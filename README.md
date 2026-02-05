@@ -1,9 +1,9 @@
 <div align="center">
 
-> <b>[NOTE]</b>
-> This is a fork of [C10udburst/tailscale-systray](https://github.com/C10udburst/tailscale-systray) built with alternative Tailscale [icons](https://github.com/kelvinkellner/tailscale-systray/tree/master/icons).
-> There are two binaries included for each OS/architecture, choose between black or white icons.
-> To learn how you can built this project yourself, read about [compiling Go source code on the Arch wiki](https://wiki.archlinux.org/title/Go)
+> <b>NOTE</b><br/>
+> This is a fork of [C10udburst/tailscale-systray](https://github.com/C10udburst/tailscale-systray) built with alternative Tailscale [icons](https://github.com/kelvinkellner/tailscale-systray/tree/master/icons).<br/>
+> There are two binaries included for each OS/architecture, you can choose between black or white icons.<br/>
+> To learn how you can build this project yourself, read about [compiling Go source code on the Arch wiki](https://wiki.archlinux.org/title/Go).
 
 <img src="icons/on.png" width="60em">
 
@@ -11,7 +11,7 @@
 
 This is an unofficial cross-platform system tray application written in Golang for managing Tailscale status, exit nodes, and other related functionalities. Tailscale is a secure and easy-to-use VPN that allows you to securely connect your devices across the internet.
 
-![image](https://github.com/kelvinkellner/tailscale-systray/assets/18114966/adc69050-a320-4e3d-952b-fcf57185c8d4)
+![image](https://github.com/C10udburst/tailscale-systray/assets/18114966/adc69050-a320-4e3d-952b-fcf57185c8d4)
 
 </div>
 
