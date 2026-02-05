@@ -96,7 +96,7 @@ func onReady() {
 	if updateAvailable {
 		updateItem := systray.AddMenuItem("Update Available", "Update Available")
 		setListener(updateItem, func(interface{}) {
-			openUrl("https://github.com/c10udburst/tailscale-systray/")
+			openUrl("https://github.com/kelvinkellner/tailscale-systray/")
 		}, nil)
 		systray.AddSeparator()
 	}
@@ -315,7 +315,7 @@ func checkForUpdates() {
 	fmt.Printf("Curr: %s\n", currentCommit)
 
 	var latestCommit string = ""
-	resp, err := http.Get("https://api.github.com/repos/C10udburst/tailscale-systray/tags")
+	resp, err := http.Get("https://api.github.com/repos/kelvinkellner/tailscale-systray/tags")
 	if err != nil {
 		return
 	}

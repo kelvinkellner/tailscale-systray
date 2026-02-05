@@ -26,7 +26,7 @@ esac
 echo "Killing existing tailscale-systray"
 killall tailscale-systray > /dev/null 2>&1
 
-uri="https://github.com/C10udburst/tailscale-systray/releases/download/latest/tailscale-systray-$os-$arch"
+uri="https://github.com/kelvinkellner/tailscale-systray/releases/download/latest/tailscale-systray-$os-$arch"
 mkdir -p ~/.local/bin
 curl -L -o ~/.local/bin/tailscale-systray $uri
 
@@ -90,7 +90,7 @@ if ($ARCH -eq "AMD64") {
     throw "Unknown architecture $ARCH"
 }
 
-$uri = "https://github.com/C10udburst/tailscale-systray/releases/download/latest/tailscale-systray-windows-$ARCH.exe"
+$uri = "https://github.com/kelvinkellner/tailscale-systray/releases/download/latest/tailscale-systray-windows-$ARCH.exe"
 $shellStartup = [Environment]::GetFolderPath("Startup")
 Invoke-WebRequest -Uri $uri -OutFile "$shellStartup\tailscale-systray.exe"
 Start-Process "$shellStartup\tailscale-systray.exe"

@@ -1,4 +1,4 @@
-module github.com/c10udburst/tailscale-systray
+module github.com/kelvinkellner/tailscale-systray
 
 go 1.20
 
