@@ -1,6 +1,6 @@
 <div align="center">
 
-> [!NOTE]  
+> <b>[NOTE]</b>
 > This is a fork of [C10udburst/tailscale-systray](https://github.com/C10udburst/tailscale-systray) built with alternative Tailscale [icons](https://github.com/kelvinkellner/tailscale-systray/tree/master/icons).
 > There are two binaries included for each OS/architecture, choose between black or white icons.
 > To learn how you can built this project yourself, read about [compiling Go source code on the Arch wiki](https://wiki.archlinux.org/title/Go)
