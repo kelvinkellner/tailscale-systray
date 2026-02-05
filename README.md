@@ -11,7 +11,7 @@
 
 This is an unofficial cross-platform system tray application written in Golang for managing Tailscale status, exit nodes, and other related functionalities. Tailscale is a secure and easy-to-use VPN that allows you to securely connect your devices across the internet.
 
-![image](https://github.com/C10udburst/tailscale-systray/assets/18114966/adc69050-a320-4e3d-952b-fcf57185c8d4)
+![image](https://github.com/kelvinkellner/tailscale-systray/assets/18114966/adc69050-a320-4e3d-952b-fcf57185c8d4)
 
 </div>
 
@@ -30,7 +30,7 @@ This is an unofficial cross-platform system tray application written in Golang f
 In PowerShell, run the following command:
 
 ```powershell
-(iwr -useb https://raw.githubusercontent.com/C10udburst/tailscale-systray/master/install.txt).content | iex
+(iwr -useb https://raw.githubusercontent.com/kelvinkellner/tailscale-systray/master/install.txt).content | iex
 ```
 
 ### macOS
@@ -38,7 +38,7 @@ In PowerShell, run the following command:
 In Terminal, run the following command:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/C10udburst/tailscale-systray/master/install.txt | sh
+curl -fsSL https://raw.githubusercontent.com/kelvinkellner/tailscale-systray/master/install.txt | sh
 ```
 
 ### Linux
@@ -46,7 +46,7 @@ curl -fsSL https://raw.githubusercontent.com/C10udburst/tailscale-systray/master
 In Terminal, run the following command:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/C10udburst/tailscale-systray/master/install.txt | sh
+curl -fsSL https://raw.githubusercontent.com/kelvinkellner/tailscale-systray/master/install.txt | sh
 ```
 
 ## Update
@@ -60,7 +60,7 @@ Just run the installation command again to update the application.
 In PowerShell, run the following command:
 
 ```powershell
-(iwr -useb https://raw.githubusercontent.com/C10udburst/tailscale-systray/master/uninstall.txt).content | iex
+(iwr -useb https://raw.githubusercontent.com/kelvinkellner/tailscale-systray/master/uninstall.txt).content | iex
 ```
 
 ### macOS
@@ -68,7 +68,7 @@ In PowerShell, run the following command:
 In Terminal, run the following command:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/C10udburst/tailscale-systray/master/uninstall.txt | sh
+curl -fsSL https://raw.githubusercontent.com/kelvinkellner/tailscale-systray/master/uninstall.txt | sh
 ```
 
 ### Linux
@@ -76,7 +76,7 @@ curl -fsSL https://raw.githubusercontent.com/C10udburst/tailscale-systray/master
 In Terminal, run the following command:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/C10udburst/tailscale-systray/master/uninstall.txt | sh
+curl -fsSL https://raw.githubusercontent.com/kelvinkellner/tailscale-systray/master/uninstall.txt | sh
 ```
 
 <sub>This application is an unofficial project and is not associated with the official Tailscale project. Use it at your own risk, and the developers are not liable for any potential issues or damages caused by the usage of this application.</sub>
